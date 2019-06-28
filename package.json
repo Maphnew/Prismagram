@@ -1,0 +1,22 @@
+{
+  "name": "Prismagram",
+  "version": "1.0.0",
+  "description": "Instagram clone with Graphql + prisma + react + react native",
+  "repository": "https://github.com/Maphnew/Prismagram.git",
+  "author": "Maphnew <zcm3118@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "dotenv": "^8.0.0",
+    "graphql-yoga": "^1.18.0",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  }
+}
